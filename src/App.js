@@ -21,8 +21,6 @@ class App extends Component {
 
 
           <h1 className="App-title"><b>Aplicação do Lu!</b></h1>
-
-        </header>
       </div>
     );
   }
