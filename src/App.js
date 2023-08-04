@@ -10,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={mba} className="App-logo" alt="logo" />
 
+
           <h1 className="App-title"><b>Feature com alteração</b></h1>
         </header>
         <p className="App-intro">
@@ -18,10 +19,10 @@ class App extends Component {
         
         <p> Essa é a nossa branch!!!"</p>
 
-        <p className="App-intro">
-          Minha Feature Prof
 
-        </p>
+          <h1 className="App-title"><b>Aplicação do Lu!</b></h1>
+
+        </header>
       </div>
     );
   }
