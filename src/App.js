@@ -9,18 +9,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={mba} className="App-logo" alt="logo" />
-
-
-          <h1 className="App-title"><b>Feature com alteração</b></h1>
+          <h1 className="App-title"><b>Welcome 2AGLR</b></h1>
         </header>
-        <p className="App-intro">
-          O lado negro da força!!
-         </p>
-        
-        <p> Essa é a nossa branch!!!"</p>
-
-
-          <h1 className="App-title"><b>Aplicação do Lu!</b></h1>
       </div>
     );
   }
