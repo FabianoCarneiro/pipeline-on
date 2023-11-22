@@ -20,7 +20,6 @@ class App extends Component {
       
 
           <h1 className="App-title"><b>Welcome 2AGLR</b></h1>
-        </header>
 
       </div>
     );
