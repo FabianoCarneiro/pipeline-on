@@ -9,8 +9,19 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={mba} className="App-logo" alt="logo" />
+
+
+          <h1 className="App-title"><b>fiap scj"</b></h1>
+        
+      
+          <p className="App-intro">
+            TESTE AULA GITHUB
+           </p>
+      
+
           <h1 className="App-title"><b>Welcome 2AGLR</b></h1>
         </header>
+
       </div>
     );
   }
