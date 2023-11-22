@@ -12,20 +12,11 @@ class App extends Component {
 
           <h1 className="App-title"><b>fiap scj"</b></h1>
         </header>
-        <p className="App-intro">
-          O lado negro da força!!
-         </p>
-
+      
           <p className="App-intro">
             TESTE AULA GITHUB
            </p>
-        
-        <p> Essa é a nossa branch!!!"</p>
-
-        <p className="App-intro">
-          Minha Feature Prof
-
-        </p>
+      
       </div>
     );
   }
