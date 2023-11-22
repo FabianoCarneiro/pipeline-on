@@ -11,7 +11,7 @@ class App extends Component {
           <img src={mba} className="App-logo" alt="logo" />
 
           <h1 className="App-title"><b>fiap scj"</b></h1>
-        </header>
+        
       
           <p className="App-intro">
             TESTE AULA GITHUB
