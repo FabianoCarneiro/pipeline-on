@@ -10,6 +10,12 @@ on:
     branches: [ "master" ]
 
 jobs:
+  dockerbuild:
+    runs-on: ubuntu-latest
+    steps:
+    - name: dockerbuild
+      run: docker
+    
   build:
     runs-on: ubuntu-latest
     steps:
