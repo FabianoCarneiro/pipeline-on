@@ -12,7 +12,7 @@ class App extends Component {
         
       
           <p className="App-intro">
-            TESTE AULA GITHUB
+            Teste Fernando
            </p>
       
 
