@@ -16,7 +16,7 @@ class App extends Component {
            </p>
       
 
-          <p className="App-intro"><b>Welcome 2AGLR</b></p>
+          <p className="App-intro"><b>Welcome ES 26</b></p>
         </header>
       </div>
     );
