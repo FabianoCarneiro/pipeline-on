@@ -11,16 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-
-          <h1 className="App-title"> Welcome to MBA Impacta</h1>
-
-
-          <p className="App-intro">
-            Teste Fernando
-           </p>
-      
-
+          <img src={mba} className="App-logo" alt="logo" />
 
         </header>
       </div>
