@@ -15,13 +15,6 @@ class App extends Component {
 
           <h1 className="App-title"> Welcome to MBA Impacta</h1>
 
-
-          <p className="App-intro">
-            Teste Fernando
-           </p>
-      
-
-
         </header>
       </div>
     );
