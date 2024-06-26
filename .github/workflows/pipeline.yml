@@ -5,18 +5,10 @@ name: Pipeline
 
 on:
   push:
-    branches: [ "release" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: ["develop"]
+
 
 jobs:
-  dockerbuild:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: dockerbuild
-      run: docker-compose up -d
-    
   build:
     runs-on: ubuntu-latest
     steps:
