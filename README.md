@@ -1,4 +1,4 @@
-# Jenkins CI/CD 1.0
+# Jenkins CI/CD 1.0.1
 
 Este repositório é baseado na documentação: [Build a Node.js and React app with npm](https://jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/)
 
