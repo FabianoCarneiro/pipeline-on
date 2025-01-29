@@ -3,18 +3,10 @@
 
 name: Pipeline
 
-on:
-  pull_request:
-    branches: [ "release" ]
+
+  push:
 
 jobs:
-  dockerbuild:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: dockerbuild
-      run: docker-compose up -d
-    
   build:
     runs-on: ubuntu-latest
     steps:
@@ -41,9 +33,13 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
+   
+    - name: Test
+      run: npm test
         
     - name: Build
       run: npm run build
+      
     
 ##  Deploy: 
 ##    runs-on: ubuntu-latest    
