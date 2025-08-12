@@ -5,8 +5,8 @@ name: Pipeline
 on:
   push:
     branches:
-      - main
-      - release
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
