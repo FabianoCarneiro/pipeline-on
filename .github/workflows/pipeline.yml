@@ -5,7 +5,7 @@ name: Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,4 +52,3 @@ jobs:
         publish_dir: ./build
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-
