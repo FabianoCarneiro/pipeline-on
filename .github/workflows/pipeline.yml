@@ -2,10 +2,10 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
 name: Pipeline
-
 on:
   push:
-
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,4 +52,3 @@ jobs:
         publish_dir: ./build
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-
