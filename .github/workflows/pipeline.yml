@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-
+      - featureAS10
 jobs:
   build:
     runs-on: ubuntu-latest
