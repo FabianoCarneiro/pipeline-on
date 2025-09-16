@@ -20,7 +20,7 @@ class App extends Component {
           <h1 className="App-title"> Essa é Feature AS10_2</h1>
 
 
-      </header>
+
 
       </div>
     );
