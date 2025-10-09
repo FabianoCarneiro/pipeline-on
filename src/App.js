@@ -14,7 +14,12 @@ class App extends Component {
 
           <img src={logo} className="App-logo" alt="logo" />
 
+
           <h1 className="App-title"> Essa é Feature DVPR 07 01</h1>
+
+
+          <h1 className="App-title"> Essa é Feature DVPR 07 2</h1>
+
 
       </header>
 
