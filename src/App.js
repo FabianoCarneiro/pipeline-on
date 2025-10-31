@@ -14,13 +14,9 @@ class App extends Component {
 
           <img src={logo} className="App-logo" alt="logo" />
 
+          <h1 className="App-title"> Essa é Feature CTO01_1 2025</h1>
 
           <h1 className="App-title"> Essa é Feature CTO01</h1>
-
-
-          <h1 className="App-title"> Essa é Feature CTO01_1</h1>
-
-
 
 
       </header>
