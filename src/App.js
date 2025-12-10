@@ -16,7 +16,7 @@ class App extends Component {
 
           <h1 className="App-title">Essa é Feature 01 da 6AGLR 2025</h1>
 
-          <h1 className="App-title">Essa é Feature 01 da 6AGLR</h1>
+          <h1 className="App-title">Essa é Feature 02 da 6AGLR</h1>
 
       </header>
 
