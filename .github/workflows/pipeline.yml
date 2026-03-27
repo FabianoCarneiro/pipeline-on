@@ -53,3 +53,13 @@ jobs:
         publish_dir: ./build
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
+
+    - name: OWASP ZAP - Baseline Scan
+      uses: zaproxy/action-baseline@v0.14.0 # Atualizado para v0.14.0 para corrigir erro de artefato
+      with:
+        target: 'https://fabianocarneiro.github.io/pipeline-on/'
+        rules_file_name: '.zap/rules.tsv' # Opcional
+        cmd_options: '-a' # Inclui regras alfa passivas
+        allow_issue_writing: false # Não abre Issues no repo (opcional)
+        fail_action: false # Não quebra o pipeline se achar alertas
+        artifact_name: 'zap-scan-relatorio' # Nome explicito para evitar erro "zap_scan invalid"
