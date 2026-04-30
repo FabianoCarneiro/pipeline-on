@@ -16,7 +16,7 @@ class App extends Component {
 
           <h1 className="App-title">Essa é Feature FULL11 2026 01</h1>
 
-        </header>
+
       </div>
     );
   }
